@@ -3,7 +3,12 @@
 html{
     scroll-behavior:smooth;
 }
+body{
+    padding:0;
+    margin:0;
+}
 .navb{
+    margin:0;
     background-color:black;
     color:white;
     font-family:'Times New Roman', Times, serif;
@@ -52,6 +57,7 @@ justify-content: center;
 
 }
 .mains{
+    margin:0;
     display: flex;
     background-color:black;
     color:white;
@@ -94,6 +100,7 @@ justify-content: center;
 }
 .container{
     display:flex;
+    margin:0:
     justify-content: space-around;
     
    
@@ -357,6 +364,7 @@ background-repeat: no-repeat;
         */
 .pad{
     padding:120px 0px;
+    margin: 0;
     background-color: black;
     color:azure;
     height:100%;
@@ -409,11 +417,7 @@ cursor: pointer;
 }
 
 
-.my-work{
-    padding:0px 0px;
-  
 
-}
 .photo{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -425,6 +429,7 @@ cursor: pointer;
 }
 .my-work{
     padding:10px 30px;
+    margin:0;
     
     background-color: black;
     color:azure;
@@ -451,6 +456,7 @@ border-radius: 10px;
 .work{
 
     padding:30px 30px;
+
     font-size: 35px;
 }
 .desc{
@@ -489,6 +495,7 @@ border-radius: 10px;
 }
 .cont{
     padding:150px 30px;
+    margin:0;
     background-color: black;
     color:white;
 }
@@ -576,16 +583,139 @@ nav .fas{
 
 
 @media only screen and (max-width: 600px) {
-/*.navb ul {
-        width:200px;
+    
+
+
+
+    .my-work{
+        padding:10px 30px;
+        margin:0;
+        
+        background-color: black;
+        color:azure;
+        
+    }
+    .photo1{
+    border-radius: 10px;
+        position:relative;
+        height: 100%;
+        width:100%;
+        
+        overflow: hidden;
+    }
+    .photo1 img{
+        display:block;
+    
+        width:100%;
+        height: 100%;
+      
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.5s;
+    }
+    .work{
+    
+        padding:30px 30px;
+    
+        font-size: 35px;
+    }
+    .desc{
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:100%;
+        height:0;
+        border-radius: 10px ;
+        overflow: hidden;
+        background:linear-gradient(rgba(180, 40, 40, 0),rgb(187, 49, 49)) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:0px 5px;
+        transition: height 0.5s;
+    
+    }
+    .desc h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .desc.p{
+        font-size: 13px;
+    }
+    
+    .photo1:hover img{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .photo1:hover .desc{
+        height:100%;
+        
+        cursor: pointer;
+    }
+
+
+/*.navb{
+    background-color:black;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navb{
+    
+display:flex;
+justify-content: center;
+    align-items: center;
+    width:100%;
+    height:40px;
+    padding-bottom: 0px;
+}
+
+
+.navb ul li{
+    
+    list-style: none;
+    color:brown;
+    display:inline-block;
+    padding-right: 20px;
+} 
+.navb ul li a{
+    text-decoration: none;
+    color:white;
+    position: relative;
+    font-size: 13px;
+}
+.navb ul li a::after{
+    content: '';
+    position:absolute;
+    width:0;
+    height:2px;
+    background:red;
+    transition:0.3s;
+    left:0;
+    bottom:-6px;
+
+
+}
+.navb ul li a:hover::after{
+    
+    width:100%
+
+
+}*/
+.navb ul {
+    margin:0;
+    padding: 0;
+        width:210px;
         height:100vh;
         top:0;
-        right:0;
-        
+        left:-210px;
+        overflow: hidden;
         position:fixed;
         background-color: rgb(112, 12, 12);
+        transition: 0.5s;
         
-        padding-top: 50px;
+        
 
 
     }
@@ -602,11 +732,12 @@ nav .fas{
 
         display:block;
         padding-top:50px;
+        padding-left: 40px;
     }
     nav ul .fas{
         position:absolute;
         top:5px;
-        left:25px;
+        right:25px;
         cursor: pointer;
     }*/
 
