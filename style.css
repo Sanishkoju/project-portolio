@@ -67,6 +67,11 @@ justify-content: center;
     padding:90px 90px 30px 30px;
 
 }
+#word{
+    
+    font-family: Arial, Helvetica, sans-serif;
+color:rgb(133, 126, 126);
+}
 .mainimg{
     flex-basis: 30%;
     border-radius: 50%;
@@ -457,6 +462,7 @@ border-radius: 10px;
 .work{
 
     padding:30px 30px;
+    position:relative;
 
     font-size: 35px;
 }
@@ -486,7 +492,7 @@ border-radius: 10px;
 }
 
 .photo1:hover img{
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
 }
 .photo1:hover .desc{
@@ -588,72 +594,8 @@ nav .fas{
 
 
 
-    .my-work{
-        padding:10px 30px;
-        margin:0;
-        
-        background-color: black;
-        color:azure;
-        
-    }
-    .photo1{
-    border-radius: 10px;
-        position:relative;
-        height: 100%;
-        width:100%;
-        
-        overflow: hidden;
-    }
-    .photo1 img{
-        display:block;
     
-        width:100%;
-        height: 100%;
-      
-        border-radius: 10px;
-        overflow: hidden;
-        transition: transform 0.5s;
-    }
-    .work{
-    
-        padding:30px 30px;
-    
-        font-size: 35px;
-    }
-    .desc{
-        position:absolute;
-        left:0;
-        bottom:0;
-        width:100%;
-        height:0;
-        border-radius: 10px ;
-        overflow: hidden;
-        background:linear-gradient(rgba(180, 40, 40, 0),rgb(187, 49, 49)) ;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding:0px 5px;
-        transition: height 0.5s;
-    
-    }
-    .desc h1{
-        font-size: 20px;
-        margin-bottom: 0px;
-    }
-    .desc.p{
-        font-size: 13px;
-    }
-    
-    .photo1:hover img{
-        transform: scale(1.1);
-        cursor: pointer;
-    }
-    .photo1:hover .desc{
-        height:100%;
-        
-        cursor: pointer;
-    }
+
 
 
 /*.navb{
@@ -732,15 +674,15 @@ justify-content: center;
     .navb ul li {
 
         display:block;
-        padding-top:60px;
+        padding-top:50px;
         padding-left: 40px;
     }
     nav ul .fas{
         position:absolute;
-        top:10px;
+        top:25px;
         right:25px;
         cursor: pointer;
-    }*/
+    }
 
 .mains{
     padding:10px 10px;
@@ -758,8 +700,8 @@ justify-content: center;
     padding:10px 10px;
 }
 .perdet{
-    flex:display;
-    flex-direction: column
+    display: flex;
+    flex-direction: column;
     
 }
 .cont{
