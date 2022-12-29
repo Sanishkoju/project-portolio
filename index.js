@@ -8,5 +8,5 @@ function openmenu(){
     sideBar.style.left="0px";
 }
 function closemenu(){
-    sideBar.style.left="-210px";
+    sideBar.style.left="-250px";
 }
