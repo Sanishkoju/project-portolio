@@ -15,12 +15,14 @@ function openmenu(){
 }
 function closemenu(){
     sideBar.style.left="-250px";
-    linee.style.display="inline"
+    linee.style.display="inline";
+
 }
 
 function opentab(){
     educationn.style.display="inline";
     skilll.style.display="none";
+    
     
 
 
