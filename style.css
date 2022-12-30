@@ -44,7 +44,7 @@ justify-content: center;
     width:0;
     height:2px;
     background:red;
-    transition:0.3s;
+    transition:0.6s;
     left:0;
     bottom:-6px;
 
@@ -70,7 +70,7 @@ justify-content: center;
 #word{
     
     font-family: Arial, Helvetica, sans-serif;
-color:rgb(182, 181, 181);
+
 }
 .mainimg{
     flex-basis: 30%;
@@ -158,6 +158,7 @@ color:rgb(182, 181, 181);
 .education h1:hover{
     
     padding-bottom: 0px;
+    cursor: pointer;
     border-bottom: 5px solid red;
     width:170px;
     
@@ -304,6 +305,7 @@ color:black
 .tab-content h1:hover{
 padding-bottom:0px;
     width:65px;
+    cursor: pointer;
     border-bottom: 5px solid red;
     
 }
@@ -452,6 +454,9 @@ background-repeat: no-repeat;
 .box h1{
     font-size: 23px;
     letter-spacing: 1px;
+    color:rgb(212, 16, 16);
+    
+
 }
 .box:hover{
     transform: translateY(-10px);
@@ -463,11 +468,12 @@ cursor: pointer;
 .box i{
     
     font-size: 25px;
+    color:rgb(221, 66, 66)
 }
 .box a{
     text-decoration: none;
     font-size: 13px;
-    color:azure
+    color:rgb(255, 240, 240)
 }
 
 
@@ -574,9 +580,9 @@ border-radius: 10px;
 }
 .contacts a{
     text-decoration: none;
-    color:rgb(199, 193, 195);
-    margin-right:5px;
-    font-size: 20px;
+    color:rgb(27, 196, 77);
+    margin-right:8px;
+    font-size: 25px;
     display: inline-block;
     transition:transform 0.5s;
 }
@@ -599,7 +605,7 @@ border-radius: 10px;
     padding-top:0px;
     display: inline-block;
     transition: 0.5s;
-    height:30px;
+    height:50px;
     margin-top: 30px;
 
    
@@ -608,7 +614,7 @@ border-radius: 10px;
 .bt a{
     text-decoration: none;
     color:white;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bolder;
     padding:10px 10px;
     
@@ -635,14 +641,21 @@ form input,form textarea{
 .btn{
     margin:15px;
     width:120px;
-    height:30px;
+    height:50px;
     color:white;
     background:rgb(153, 21, 21);
     border-radius:10px;
 }
+
 nav .fas{
     display:none;
     
+}
+nav #sun{
+    display:none;
+}
+nav #moon{
+    display:none;
 }
 .footer{
     background-color: black;
@@ -748,6 +761,24 @@ justify-content: center;
 
         
         
+    }
+    nav #sun{
+        position:absolute;
+        display: block;
+        left:25px;
+        top:25px;
+        transition: 0.5s;
+        font-size: 17px;
+    }
+
+     nav #moon{
+        position:absolute;
+        left:25px;
+        display:block;
+        top:25px;
+        font-size: 17px;
+        transition: 0.5s;
+        display:none;
     }
     .navb ul li {
 
