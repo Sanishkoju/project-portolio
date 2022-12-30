@@ -69,6 +69,9 @@ function endtab(){
 function risetab(){
     moons.style.display="inline";
     suns.style.display="none";
+
+
+    
     bright1.style.color="black";
     bright1.style.background="white";
 
@@ -88,7 +91,6 @@ function risetab(){
     bright6.style.background="white";
     
 
-
     
     
 
@@ -99,6 +101,9 @@ function risetab(){
 function settab(){
     moons.style.display="none";
     suns.style.display="inline";
+
+    
+
     bright1.style.color="white";
     bright1.style.background="black";
 
