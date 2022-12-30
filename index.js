@@ -15,12 +15,22 @@ var moons=document.getElementById("moon");
 
 
 
+
+
+
 var bright1=document.querySelector(".navb")
 var bright2=document.querySelector(".container")
 var bright3=document.querySelector(".my-work")
 var bright4=document.querySelector(".pad")
 var bright5=document.querySelector(".cont")
-var bright6=document.querySelector(".mains")
+var bright6=document.querySelector(".mains");
+
+
+
+
+/*var modes=document.querySelector(".mode")*/
+
+
 
 function openmenu(){
     sideBar.style.left="0px";
@@ -66,12 +76,23 @@ function endtab(){
 
 
 
+
 function risetab(){
     moons.style.display="inline";
     suns.style.display="none";
-
-
     
+
+ /*
+modes.forEach((e)=>{
+e.style.color='black';
+});
+
+modes.forEach((e)=>{
+    e.style.background='white';
+    });
+    */
+
+
     bright1.style.color="black";
     bright1.style.background="white";
 
@@ -90,7 +111,6 @@ function risetab(){
     bright6.style.color="black";
     bright6.style.background="white";
     
-
     
     
 

@@ -669,6 +669,12 @@ nav #moon{
     letter-spacing: 1px;
     align-items: center;
 }
+#pg {
+    display:none
+}
+#la{
+    display:none
+}
 
 
 
@@ -773,7 +779,39 @@ justify-content: center;
         left:25px;
         top:25px;
         transition: 0.5s;
-        font-size: 22px;
+        font-size: 19px;
+    }
+    #pg span{
+        color:black;
+    }
+
+
+    nav #pg{
+        position:absolute;
+        display: block;
+        left:20px;
+        top:40px;
+        transition: 0.5s;
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+    nav #la{
+        
+        
+        position:fixed;
+        display: block;
+        right:20px;
+        top:94vh;
+        transition: 0.5s;
+        font-size: 24px;
+        z-index: 2;
+        font-weight: bolder;
+        font-weight: bolder;
+    }
+    #lala{
+        text-decoration: none;
+        color:skyblue;
     }
 
      nav #moon{
