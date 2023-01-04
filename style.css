@@ -809,10 +809,10 @@ justify-content: center;
     nav #pg{
         position:absolute;
         display: block;
-        left:20px;
-        top:40px;
+        left:53px;
+        top:12px;
         transition: 0.5s;
-        font-size: 8px;
+        font-size: 13px;
         font-weight: bolder;
     }
 
@@ -821,7 +821,7 @@ justify-content: center;
         
         position:fixed;
         display: block;
-        right:20px;
+        right:23px;
         top:94vh;
         transition: 0.5s;
         font-size: 24px;
