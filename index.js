@@ -97,7 +97,7 @@ function endtab(){
 
 var day= new Date();
 var hr= day.getHours();
-if(hr>=0 && hr<12){
+if(hr>=1 && hr<12){
     bright1.style.color="black";
     bright1.style.background="white";
 
@@ -122,7 +122,7 @@ if(hr>=0 && hr<12){
     document.getElementById("pg").innerText="Good Morning !";
 
 }
-if(hr>=12 && hr<=17){
+if(hr>=12 && hr<18){
     bright1.style.color="black";
     bright1.style.background="white";
 
@@ -147,7 +147,7 @@ if(hr>=12 && hr<=17){
     document.getElementById("pg").innerText="Good Afternoon !";
 
 }
-else if(hr>=18 && hr<0){
+else if(hr>=18 && hr<=23){
 bright1.style.color="white";
     bright1.style.background="black";
 

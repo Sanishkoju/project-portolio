@@ -26,6 +26,7 @@ justify-content: center;
 }
 
 
+
 .navb ul li{
     
     list-style: none;
@@ -146,27 +147,24 @@ justify-content: center;
 }
 
 
-.education h1{
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*.slide1,slide2 h1{
     
     font-size: 15px;
     letter-spacing: 1px;
-    
+    cursor: pointer;
     
     padding-bottom:15px ;
-    width:0;
+    width:0px;
     height:15px;
     transition: width 0.9s;
    
-}
-.education h1:hover{
-    
-    padding-bottom: 0px;
-    cursor: pointer;
-    border-bottom: 5px solid red;
-    width:135px;
-    
+}*/
 
-}
 .education ul li span{
     font-weight: bold;
     font-size: 15px;
@@ -280,25 +278,41 @@ color:black
    padding:50px 0px 40px;
 }
 
-.tab-skill{
+.slide1,.slide2{
     margin-right:40px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
+    color:red;
+    border-radius: 5px;
     cursor :pointer;
     position:relative;
 }
-.tab-skill::after{
+.slide1::after{
     content: " ";
     position: absolute;
-    width:0;
+    width:0%;
     height:3px;
     left:0;
     bottom:-6px;
     transition: 0.5s;
     background:rgb(202, 21, 21);
 }
-.tab-skill:hover::after{
+.slide2::after{
+    content: " ";
+    position: absolute;
+    width:0%;
+    height:3px;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+    background:rgb(202, 21, 21);
+
+}
+.slide1:hover::after{
     width:100%;
+}
+.slide2:hover::after{
+    width:100% ;
 }
 .tab-content p{
     font-size:15px;
@@ -681,13 +695,13 @@ nav .fas{
     
 }
 nav #sun{
-    display:block;
+    display:none;
     cursor: pointer;
     
     
 }
 nav #moon{
-    display:block;
+    display:none;
     cursor: pointer;
     
 }
@@ -705,7 +719,6 @@ nav #moon{
 #la{
     display:none
 }
-
 
 
 
@@ -822,6 +835,7 @@ justify-content: center;
         display: block;
         left:53px;
         top:12px;
+        
         transition: 0.5s;
         font-size: 13px;
         font-weight: bolder;
@@ -832,6 +846,7 @@ justify-content: center;
         
         position:fixed;
         display: block;
+        
         right:23px;
         top:94vh;
         transition: 0.5s;
