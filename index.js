@@ -141,7 +141,7 @@ if(hr>=12 && hr<=17){
     document.getElementById("pg").innerText="Good Afternoon !";
 
 }
-else if(hr>=18 && hr<=0){
+else if(hr>=18 && hr<=5){
 bright1.style.color="white";
     bright1.style.background="black";
 
