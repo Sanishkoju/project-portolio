@@ -45,23 +45,36 @@ function closemenu(){
     crosss.style.display="none";
 
 }
-
+educationn.style.display="none";
 function opentab(){
+    if(educationn.style.display==="none"){
     educationn.style.display="inline";
+    }
+    else if(   educationn.style.display==="inline"){
+        educationn.style.display="none";
+    }
     skilll.style.display="none";
     
     
 
 
 }
+skilll.style.display="inline";
 function opentabs(){
+    if( skilll.style.display==="none"){
     skilll.style.display="inline";
+    
+}
+    else if( skilll.style.display==="inline"){
+        skilll.style.display="none";
+
+    }
     educationn.style.display="none";
 
 }
 
 
-function starttabs(){
+/*function starttabs(){
     skilll.style.display="none";
     
 
@@ -71,7 +84,7 @@ function endtab(){
     educationn.style.display="none";
 
 
-}
+}*/
 
 
 
@@ -117,17 +130,13 @@ modes.forEach((e)=>{
 
 
 }
-
+ 
 function settab(){
     moons.style.display="none";
     suns.style.display="inline";
 
     
-
-    bright1.style.color="white";
-    bright1.style.background="black";
-
-    bright1.style.color="white";
+   bright1.style.color="white";
     bright1.style.background="black";
 
     bright2.style.color="white";

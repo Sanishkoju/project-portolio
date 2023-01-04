@@ -136,6 +136,7 @@ justify-content: center;
 }
 #educations{
     display:none;
+    transition:0.8s;
     top: 0;
     left:0;
     
@@ -304,6 +305,7 @@ color:black
 }
 #skills{
     display:none;
+    transition: 0.8s;
     top:0;
     left:0;
 
@@ -863,6 +865,7 @@ justify-content: center;
     display:flex;
 
 }
+
 
 
 .mainimg{
