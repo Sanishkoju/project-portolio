@@ -14,6 +14,7 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 
+
 .navb{
     
 display:flex;
@@ -28,13 +29,13 @@ justify-content: center;
 .navb ul li{
     
     list-style: none;
-    color:brown;
+    
     display:inline-block;
     padding-right: 40px;
 } 
 .navb ul li a{
     text-decoration: none;
-    color:white;
+    color:inherit;
     position: relative;
     font-size: 18px;
 }
@@ -135,8 +136,9 @@ justify-content: center;
     
 }
 #educations{
-    display:none;
+   display:none;
     transition:0.8s;
+    
     top: 0;
     left:0;
     
@@ -306,11 +308,13 @@ color:black
 #skills{
     display:none;
     transition: 0.8s;
+    height:150px;
     top:0;
     left:0;
 
     
 }
+
 .tab-content active-tab h1{
     padding-right: 5px;
 }
@@ -619,7 +623,7 @@ border-radius: 10px;
     flex-basis: 60%;
 }
 .contacts i:hover{
-    transform:  scale(1.2) rotate(90deg) ;
+    transform:  scale(1.2) rotate(360deg) ;
     cursor: pointer;
     
 }
@@ -677,11 +681,17 @@ nav .fas{
     
 }
 nav #sun{
-    display:none;
+    display:block;
+    cursor: pointer;
+    
+    
 }
 nav #moon{
-    display:none;
+    display:block;
+    cursor: pointer;
+    
 }
+
 .footer{
     background-color: black;
     color:white;
@@ -768,6 +778,7 @@ justify-content: center;
         overflow: hidden;
         z-index: 1;
         position:fixed;
+        color: white;
         background-color: rgb(112, 12, 12);
         transition: 0.5s;
         
@@ -858,7 +869,9 @@ justify-content: center;
     }
     #cross{
         color:white;
+        
     }
+    
 
 .mains{
     padding:10px 10px;

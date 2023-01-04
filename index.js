@@ -49,6 +49,9 @@ function closemenu(){
     
 
 }
+
+
+
 educationn.style.display="none";
 function opentab(){
     if(educationn.style.display==="none"){
@@ -114,7 +117,7 @@ if(hr>=0 && hr<12){
     bright6.style.background="white";
 
        moons.style.display="inline";
-    suns.style.display="none";
+    
     
     document.getElementById("pg").innerText="Good Morning !";
 
