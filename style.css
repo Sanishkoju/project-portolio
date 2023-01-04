@@ -617,9 +617,9 @@ border-radius: 10px;
     flex-basis: 60%;
 }
 .contacts i:hover{
-    transform: translateY(-5px);
+    transform:  scale(1.2) rotate(90deg) ;
     cursor: pointer;
-    color:rgb(236, 12, 12);
+    
 }
 .bt{
     background-color: rgb(153, 21, 21);
