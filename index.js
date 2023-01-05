@@ -231,7 +231,7 @@ function settab(){
     moons.style.display="none";
     suns.style.display="inline";
     
-    document.getElementById("pg").innerText="Dark Mode";
+    document.getElementById("pg").innerText ="Dark Mode";
 
     
    bright1.style.color="white";
@@ -256,4 +256,3 @@ function settab(){
 
 
 }
-document.getElementById("la").addEventListener("click",()=>document.getElementById("la").style.rotate="180deg" );
