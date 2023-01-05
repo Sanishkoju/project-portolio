@@ -56,6 +56,7 @@ educationn.style.display="none";
 function opentab(){
     if(educationn.style.display==="none"){
     educationn.style.display="inline";
+    document.querySelector(".slide2").style.display.width="100%"
     }
     else if(   educationn.style.display==="inline"){
         educationn.style.display="none";
@@ -97,7 +98,8 @@ function endtab(){
 
 var day= new Date();
 var hr= day.getHours();
-if(hr>=1 && hr<12){
+
+if((hr>=6 && hr<12)||(hr===12)||(hr>=1 && hr<18)){
     bright1.style.color="black";
     bright1.style.background="white";
 
@@ -117,12 +119,16 @@ if(hr>=1 && hr<12){
     bright6.style.background="white";
 
        moons.style.display="inline";
+       suns.style.display="none";
     
     
-    document.getElementById("pg").innerText="Good Morning !";
+    if(hr>=6&& hr<12){document.getElementById("pg").innerText="Good Morning !";}
+    else if(hr===12){document.getElementById("pg").innerText="Good Noon !";}
+
+else if(hr>=1&& hr<18){document.getElementById("pg").innerText="Good Afternoon !";}
 
 }
-if(hr>=12 && hr<18){
+/*else if(hr>=12 && hr<18){
     bright1.style.color="black";
     bright1.style.background="white";
 
@@ -146,8 +152,8 @@ if(hr>=12 && hr<18){
     
     document.getElementById("pg").innerText="Good Afternoon !";
 
-}
-else if(hr>=18 && hr<=23){
+}*/
+else if((hr>=18 && hr<=23)||(hr>=0 && hr<6)){
 bright1.style.color="white";
     bright1.style.background="black";
 
@@ -168,7 +174,11 @@ bright1.style.color="white";
 
        moons.style.display="none";
     suns.style.display="inline";
-    document.getElementById("pg").innerText="Good Night !";
+    if((hr>=18 && hr<23)){
+    document.getElementById("pg").innerText="Good Evening !";}
+    else if((hr>=0 && hr<6)){
+        document.getElementById("pg").innerText="Good Night !"
+    }
     
 
 }
@@ -246,3 +256,4 @@ function settab(){
 
 
 }
+document.getElementById("la").addEventListener("click",()=>document.getElementById("la").style.rotate="180deg" );
