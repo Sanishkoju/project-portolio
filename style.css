@@ -135,7 +135,7 @@ justify-content: center;
 .education {
     
     margin-top:15px;
-    background-color: palevioletred;
+    background:transparent;
     border-radius: 5px;
 
     
@@ -186,7 +186,7 @@ justify-content: center;
 .education ul li{
     list-style: none;
     height:151.5px;
-    padding: 0px 10px;
+    padding: 0px 0px;
     
 }
 .bex{
@@ -358,14 +358,14 @@ padding-bottom:0px;
     
 }
 .tab-content{
-background-color:palevioletred ;
+background:transparent ;
     margin-top: 15px;
     border-radius: 5px;
     
 }
 .tab-content ul,.tab-content ul li {
     list-style: none;
-    padding:0px 10px;
+    padding:0px 0px;
     
     
 
@@ -827,9 +827,11 @@ justify-content: center;
         
     }
     nav #line{
-        position:absolute;
+        position:fixed;
+        z-index: 2;
         right:25px;
         top:25px;
+        color:rgb(112, 223, 223);
 
 
         
@@ -841,7 +843,7 @@ justify-content: center;
         left:25px;
         top:25px;
         transition: 0.5s;
-        font-size: 19px;
+        font-size: 15px;
     }
     #pg span{
         color:black;
@@ -885,7 +887,7 @@ justify-content: center;
         left:25px;
         display:block;
         top:25px;
-        font-size: 22px;
+        font-size: 17px;
         transition: 0.5s;
         display:none;
     }
