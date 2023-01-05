@@ -135,6 +135,7 @@ justify-content: center;
 .education {
     
     margin-top:0px;
+    
     background:transparent;
     border-radius: 5px;
 
@@ -172,19 +173,22 @@ justify-content: center;
 .education ul li span{
     font-weight: bold;
     font-size: 16px;
+    color:rgb(11, 125, 170);
     list-style: none;
+    
     letter-spacing: 1px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .education ul li p{
     font-size: 17px;
+    color:rgb(6, 171, 236);
     letter-spacing: 0px;
     line-height: 18px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 .education ul li{
-    list-style: none;
+    list-style-type: disc;
     
     padding: 0px 0px;
     
@@ -849,9 +853,7 @@ justify-content: center;
         transition: 0.5s;
         font-size: 15px;
     }
-    #pg span{
-        color:black;
-    }
+    
 
 
     nav #pg{
@@ -859,6 +861,16 @@ justify-content: center;
         display: block;
         left:53px;
         top:12px;
+        
+        transition: 0.5s;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+    nav #pgs{
+        position:absolute;
+        display: block;
+        left:53px;
+        top:2px;
         
         transition: 0.5s;
         font-size: 13px;
@@ -891,7 +903,7 @@ justify-content: center;
         left:25px;
         display:block;
         top:25px;
-        font-size: 17px;
+        font-size: 15px;
         transition: 0.5s;
         display:none;
     }
