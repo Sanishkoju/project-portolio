@@ -378,7 +378,8 @@ padding-bottom:0px;
     
 }
 .tab-content{
-background:transparent ;
+    background:transparent;
+backdrop-filter: blur(5px);
     margin-top: 20px;
     border-radius: 5px;
     
@@ -514,10 +515,11 @@ background-repeat: no-repeat;
     margin-right:0px;
     padding:20px;
     background-color: rgb(31, 29, 29);
+    
     box-sizing: border-box;
     border-radius:5px;
     transition: 0.6s;
-    box-shadow:2px 3px#717a7a ;
+ 
 
 }
 .box p{
@@ -538,7 +540,7 @@ background-repeat: no-repeat;
     transform: translateY(-10px);
 cursor: pointer;
     
-    background-color: rgb(209, 10, 10);
+    background-color: rgb(148, 40, 40);
     
 }
 .box i{
@@ -851,7 +853,7 @@ justify-content: center;
         z-index: 2;
         right:25px;
         top:25px;
-        transform: scale(0.8);
+        transform: scale(1.1);
         color:rgb(112, 223, 223);
         animation:animatesanish2 1.5s ease-in-out 0.4s infinite alternate;
 
@@ -863,7 +865,7 @@ justify-content: center;
     
         }
         to{
-            transform: scale(1.0);
+            transform: scale(1.1);
             
 
         }
@@ -951,7 +953,7 @@ justify-content: center;
         color:rgb(112, 223, 223);
         transform: rotate(0deg);
        
-        animation:animatesanish00 3s ease-in-out 0.4s infinite alternate-reverse;
+        animation:animatesanish00 2s ease-in-out 0.4s infinite alternate-reverse;
 
     }
     @keyframes animatesanish00{
