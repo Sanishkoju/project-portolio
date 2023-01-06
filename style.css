@@ -864,6 +864,7 @@ justify-content: center;
         }
         to{
             transform: scale(1.0);
+            
 
         }
     }
@@ -950,7 +951,7 @@ justify-content: center;
         color:rgb(112, 223, 223);
         transform: rotate(0deg);
        
-        animation:animatesanish00 2s ease-in-out 0.4s infinite alternate-reverse;
+        animation:animatesanish00 3s ease-in-out 0.4s infinite alternate-reverse;
 
     }
     @keyframes animatesanish00{
@@ -961,7 +962,7 @@ justify-content: center;
     
         }
         to{
-            transform: rotate(180deg);
+            transform: rotate(90deg);
             
 
         }
