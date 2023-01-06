@@ -179,7 +179,7 @@ bright1.style.color="white";
     if((hr>=18 && hr<23)){
     document.getElementById("pg").innerText="Good Evening !";}
     else if((hr>=0 && hr<6)){
-        document.getElementById("pg").innerText="Good Night !"
+        document.getElementById("pg").innerText="Good Night !";
     }
     
 
@@ -258,3 +258,6 @@ function settab(){
 
 
 }
+AOS.init({
+    duration: 2000
+});

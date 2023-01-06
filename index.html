@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5c25a351ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -15,8 +16,8 @@
     <nav class="navb">
     
         
-            <ul id="sidemenu">
-                <li><a href="#mains">Home</a></li>
+            <ul id="sidemenu" >
+                <li><a href="#mains" >Home</a></li>
                 <li><a href="#containers">About</a></li>
                 <li><a href="#works">Portfolio</a></li>
                 <li><a href="#pads">Services</a></li>
@@ -41,29 +42,29 @@
     <div class="mains" id="mains">
         <div class="text">
             <p1>Frontend Designer</p1>
-            <h1>Hi,i'm <span>Sanish</span> <br>from Bhaktapur </h1><br><br> 
-            <p id="word">I'm am enthusiastic,detail oriented & hard working  junior front-end developer, currently studying Bsc.csit in Bhaktapur Multiple Campus (BMC) looking for an intern to use my skill and help complete project in time.<br><br></p>
+            <h1 data-aos="fade-right">Hi,i'm <span>Sanish</span> <br>from Bhaktapur </h1><br><br> 
+            <div class="maaa" data-aos="fade-right"><p id="word">I'm am enthusiastic,detail oriented & hard working  junior front-end developer, currently studying Bsc.csit in Bhaktapur Multiple Campus (BMC) looking for an intern to use my skill and help complete project in time.<br><br></p></div>
         </div>
-        <div class="mainimg"><img class="img" src="images/IMG_20220222_213908_065.jpg"></div>
+        <div class="mainimg" data-aos="fade-up"><img class="img" src="images/IMG_20220222_213908_065.jpg"></div>
     </div>
 
 
 
 
     <div class="container" id="containers">
-        <div class="col-1">
+        <div class="col-1" data-aos="fade-right">
              <img class="pic-2" src="images/1669294784463.png">
         </div>
         
         <div class="detail">
-           <br><br><div class="det"><h1>About me</h1>
-            <p>I am Sanish Koju Shrestha and I want to master the skills of <b>Real programmer .</b></p><br>
+           <br><br><div class="det" data-aos="fade-down"><h1>About me</h1>
+            <p data-aos="fade-down">I am Sanish Koju Shrestha and I want to master the skills of <b>Real programmer .</b></p><br>
             </div><br>
-            <div class="slide"><div class="slide1"><h1 onclick="opentabs()">Skills</h1></div><div class="slide2"><h1 onclick="opentab()">Education</h1></div></div>
+            <div class="slide" data-aos="fade-right"><div class="slide1"><h1 onclick="opentabs()">Skills</h1></div><div class="slide2"><h1 onclick="opentab()">Education</h1></div></div>
             
-            <div class="tab-content active-tab">
+            <div class="tab-content active-tab"data-aos="fade-up">
                
-                <ul onclick="starttabs()"id="skills">
+                <ul onclick="starttabs()"id="skills" >
                     <li><p><span>HTML</span><br><div class="bex"><div class="bex1">90%</div></div></p></li>
                     <li><p><span>CSS</span><br><div class="bex"><div class="bex2">60%</div></div></p></li>
                     <li><p><span>JAVASCRIPT</span><br><div class="bex"><div class="bex3">50%</div></div></p></li>
@@ -74,7 +75,7 @@
 
 
 
-            <div class="education" >
+            <div class="education" data-aos="fade-up" >
                 
                 <ul onclick="endtab()"id="educations">
                     
@@ -89,7 +90,7 @@
 
 
 
-    <div class="my-work" id="works">
+    <div class="my-work" id="works" data-aos="fade-right">
 
         <div class="work">My work</div>
         <div class="photo">
@@ -125,7 +126,7 @@
 
 
 
-<div class="pad" id="pads">
+<div class="pad" id="pads" data-aos="fade-right">
 <div class="services"> My services</div>
 <div class="boxes">
     <div class="box"><i class="fa-solid fa-code"></i> <h1>UI/UX</h1><p>I am a front-end developer so i design the layout  first to predict how would be the main website design ,I have used lot of tool to design using Figma website.
@@ -146,7 +147,7 @@
 
 
 
-<div class="cont"id="conts">
+<div class="cont"id="conts" data-aos="fade-right">
     <div class="perdet">
         <div class="contact">
             <h1>Contact Me</h1>
@@ -181,7 +182,9 @@
 
 
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="index.js"></script>
+ 
+    
 </body>
 </html>
