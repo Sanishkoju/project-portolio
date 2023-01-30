@@ -101,7 +101,7 @@ var hr= day.getHours();
 
 
 
-if((hr>=6 && hr<12)||(hr===12)||(hr>=1 && hr<18)){
+if((hr>=6 && hr<12)||(hr===12)||(hr>=13 && hr<18)){
     bright1.style.color="black";
     bright1.style.background="white";
 
